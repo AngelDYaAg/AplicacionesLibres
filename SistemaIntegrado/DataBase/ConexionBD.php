@@ -1,8 +1,8 @@
 <?php
-  $server = 'localhost';
-  $username = 'root';
-  $password = '';
-  $database = 'SistemaIntegrado';
+  $server = 'bzdlckqanxfpcrbx0r5t-mysql.services.clever-cloud.com';
+  $username = 'ultfv0qomgimizs5';
+  $password = 'P6ZdnnwIf1QxKzPRSbmP';
+  $database = 'bzdlckqanxfpcrbx0r5t';
   try 
   {
     $conexion = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
